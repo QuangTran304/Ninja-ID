@@ -1,12 +1,12 @@
-# ninja_id
+# Ninja ID app
 
-A new Flutter project.
+A simple Flutter project to get my feet wet in the world of Dart & Flutter.
 
-## Getting Started
+## About project
 
-This project is a starting point for a Flutter application.
+This project aims to familiarize myself with the app structure in Flutter as well as the use of Stateful & Stateless widget.
 
-A few resources to get you started if this is your first Flutter project:
+Resources to get started 
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)

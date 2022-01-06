@@ -3,11 +3,19 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const NinjaCard());
+  runApp(NinjaCard());
 }
 
-class NinjaCard extends StatelessWidget {
+class NinjaCard extends StatefulWidget {
   const NinjaCard({ Key? key }) : super(key: key);
+
+  @override
+  State<NinjaCard> createState() => _NinjaCardState();
+}
+
+class _NinjaCardState extends State<NinjaCard> {
+
+  int ninjaLevel = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -16,12 +24,12 @@ class NinjaCard extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.grey[900],
         appBar: AppBar(
-          title: const Text('Ninja ID Card'),
+          title: Text('Ninja ID Card'),
           backgroundColor: Colors.grey[850],
           elevation: 0,
         ),
         body: Padding(
-          padding: const EdgeInsets.fromLTRB(30, 40, 30, 0),
+          padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
@@ -63,7 +71,7 @@ class NinjaCard extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                '* * * * *',
+                '$ninjaLevel',
                 style: TextStyle(
                   color: Colors.lightGreen,
                   letterSpacing: 2,

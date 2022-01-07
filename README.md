@@ -1,16 +1,19 @@
 # Ninja ID app
 
-A simple Flutter project to get my feet wet in the world of Dart & Flutter.
+A simple Flutter project to get my feet wet in the world of Dart & Flutter. I wrote another exact same in React Native to compare with the one uses Flutter. The app has 1 clickable button at bottom right to increase the "Ninja level".
 
-## About project
+## About
+This is a dead simple app I wrote just to compare the following points between Flutter app (this one) vs. [React Native app](https://github.com/QuangTran304/Ninja-ID-ReactNative)
+- Code / language structure
+- Syntax
+- Separation of concerns
+- Ease of implementation
 
-This project aims to familiarize myself with the app structure in Flutter as well as the use of Stateful & Stateless widget.
 
-Resources to get started 
+## App Screenshot
+<img src="https://github.com/QuangTran304/Ninja-ID-ReactNative/blob/main/RN%20app.png">
 
+
+## Learn more about Flutter:
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

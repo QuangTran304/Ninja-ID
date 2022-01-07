@@ -11,7 +11,7 @@ This is a dead simple app I wrote just to compare the following points between F
 
 
 ## App Screenshot
-<img src="https://github.com/QuangTran304/Ninja-ID-ReactNative/blob/main/RN%20app.png">
+<img src="https://github.com/QuangTran304/Ninja-ID/blob/main/Flutter%20app.png">
 
 
 ## Learn more about Flutter:
